@@ -3,16 +3,15 @@ name: Linter
 on: 
   push:
     branches: 
-      master
+      - master
 
 jobs:
   lint: 
-    name: Lint code base
     runs-on: ubuntu-latest
 
     steps: 
-      name: Git clone my repository
-      uses: actions/checkout@v1
+      - name: Git clone my repository
+        uses: actions/checkout@v1
 
-      name: make lint
-      run : make lint
+      - name: make lint
+        run : make lint

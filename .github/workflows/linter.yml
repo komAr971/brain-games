@@ -12,6 +12,9 @@ jobs:
     steps: 
       - name: Git clone my repository
         uses: actions/checkout@v1
+      
+      - name: make install
+        run : make install
 
       - name: make lint
         run : make lint

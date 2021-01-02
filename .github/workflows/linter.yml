@@ -15,3 +15,6 @@ jobs:
 
       - name: make lint
         run : make lint
+        
+      - name: Print message
+        run : echo "lint finished"

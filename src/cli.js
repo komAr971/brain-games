@@ -2,7 +2,8 @@ import readlineSync from 'readline-sync';
 
 const findOutPlayerName = () => {
   const playerName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${playerName}`);
+  console.log(`Hello, ${playerName}!`);
+  return playerName;
 };
 
 export default findOutPlayerName;

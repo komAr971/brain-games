@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import findOutPlayerName from '../src/cli.js';
+import getPlayerName from "../src/cli.js";
 
-console.log('Welcome to the Brain Games!');
-findOutPlayerName();
+console.log("Welcome to the Brain Games!");
+getPlayerName();

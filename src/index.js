@@ -1,8 +1,8 @@
-import getPlayerName from "../src/cli.js";
-import readlineSync from "readline-sync";
+import readlineSync from 'readline-sync';
+import getPlayerName from './cli.js';
 
 const startGame = (gameRules, getRoundTask) => {
-  console.log("Welcome to the Brain Games!");
+  console.log('Welcome to the Brain Games!');
   const playerName = getPlayerName();
 
   console.log(gameRules);
@@ -12,13 +12,13 @@ const startGame = (gameRules, getRoundTask) => {
     const [question, answer] = getRoundTask();
     console.log(`Question: ${question}`);
 
-    const playerAnswer = readlineSync.question("Your answer: ");
+    const playerAnswer = readlineSync.question('Your answer: ');
 
     if (answer === playerAnswer) {
-      console.log("Correct!");
+      console.log('Correct!');
     } else {
       console.log(
-        `'${playerAnswer}' is wrong answer ;(. Correct answer was '${answer}'.`
+        `'${playerAnswer}' is wrong answer ;(. Correct answer was '${answer}'.`,
       );
       console.log(`Let's try again, ${playerName}!`);
       return false;

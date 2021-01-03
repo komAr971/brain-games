@@ -1,7 +1,7 @@
-import readlineSync from "readline-sync";
+import readlineSync from 'readline-sync';
 
 const getPlayerName = () => {
-  const playerName = readlineSync.question("May I have your name? ");
+  const playerName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${playerName}!`);
   return playerName;
 };

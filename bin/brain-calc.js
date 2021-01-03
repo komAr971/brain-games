@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-import startGame from "../src/index.js";
-import { getRandomInt, getRandomExpression } from "../src/random.js";
+import startGame from '../src/index.js';
+import { getRandomInt, getRandomExpression } from '../src/random.js';
 
-const gameRules = "What is the result of the expression?";
+const gameRules = 'What is the result of the expression?';
 
 const getRoundTask = () => {
   const MAX_NUMBER = 100;
@@ -13,14 +13,17 @@ const getRoundTask = () => {
   const question = `${firstNumber} ${expression} ${secondNumber}`;
   let answer = null;
   switch (expression) {
-    case "+":
+    case '+':
       answer = firstNumber + secondNumber;
       break;
-    case "-":
+    case '-':
       answer = firstNumber - secondNumber;
       break;
-    case "*":
+    case '*':
       answer = firstNumber * secondNumber;
+      break;
+    default:
+      answer = null;
       break;
   }
 

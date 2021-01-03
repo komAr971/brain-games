@@ -1,13 +1,14 @@
-export const getRandomInt = (max) =>
-  Math.floor(Math.random() * Math.floor(max));
+export const getRandomInt = (max) => Math.floor(Math.random() * Math.floor(max));
 
 export const getRandomExpression = () => {
   switch (getRandomInt(3)) {
     case 0:
-      return "+";
+      return '+';
     case 1:
-      return "-";
+      return '-';
     case 2:
-      return "*";
+      return '*';
+    default:
+      return undefined;
   }
 };

@@ -1,23 +1,23 @@
 name: Linter
 
-on: 
+on:
   push:
-    branches: 
+    branches:
       - main
 
 jobs:
-  lint: 
+  lint:
     runs-on: ubuntu-latest
 
-    steps: 
+    steps:
       - name: Git clone my repository
         uses: actions/checkout@v1
-      
+
       - name: make install
-        run : make install
+        run: make install
 
       - name: make lint
-        run : make lint
-        
+        run: make lint
+
       - name: Print message
-        run : echo "lint finished"
+        run: echo "lint finished"

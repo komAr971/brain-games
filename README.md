@@ -1,4 +1,4 @@
-# RSS Reader
+# Brain games
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/5cf26388da7c41353596/maintainability)](https://codeclimate.com/github/komAr971/frontend-project-lvl1/maintainability)
 ![Actions Status](https://github.com/komAr971/frontend-project-lvl1/workflows/hexlet-check/badge.svg)

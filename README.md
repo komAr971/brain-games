@@ -3,7 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/5cf26388da7c41353596/maintainability)](https://codeclimate.com/github/komAr971/frontend-project-lvl1/maintainability)
 ![Actions Status](https://github.com/komAr971/frontend-project-lvl1/workflows/hexlet-check/badge.svg)
 
-This is my project, which I implemented as part of my study as a frontend programmer. You can try it out here [kmr-rss.vercel.app](https://kmr-rss.vercel.app/)
+Simple math games that you can run right in the terminal to stretch your brain.
 
 ### Install
 

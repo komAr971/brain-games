@@ -34,7 +34,7 @@ $ brain-even
 
 ##### Demo
 
-[brain-even-gameplay](https://asciinema.org/a/87A1Zi6u0FSPBNdmLaTjkXh2i)
+[![asciicast](https://asciinema.org/a/87A1Zi6u0FSPBNdmLaTjkXh2i.svg)](https://asciinema.org/a/87A1Zi6u0FSPBNdmLaTjkXh2i)
 
 #### Brain-calc
 
@@ -46,7 +46,7 @@ $ brain-calc
 
 ##### Demo
 
-[brain-calc-gameplay](https://asciinema.org/a/9G2sZywyCeGauV4Cs7BrDoYpg)
+[![asciicast](https://asciinema.org/a/9G2sZywyCeGauV4Cs7BrDoYpg.svg)](https://asciinema.org/a/9G2sZywyCeGauV4Cs7BrDoYpg)
 
 #### Brain-gcd
 
@@ -58,7 +58,7 @@ $ brain-gcd
 
 ##### Demo
 
-[brain-gcd-gameplay](https://asciinema.org/a/ssCFi0jxKpFjZ61WKkxWFgVNg)
+[![asciicast](https://asciinema.org/a/ssCFi0jxKpFjZ61WKkxWFgVNg.svg)](https://asciinema.org/a/ssCFi0jxKpFjZ61WKkxWFgVNg)
 
 #### Brain-progression
 
@@ -70,7 +70,7 @@ $ brain-progression
 
 ##### Demo
 
-[brain-progression-gameplay](https://asciinema.org/a/LXE729OjrqtIwsjA7eGGVNUqn)
+[![asciicast](https://asciinema.org/a/LXE729OjrqtIwsjA7eGGVNUqn.svg)](https://asciinema.org/a/LXE729OjrqtIwsjA7eGGVNUqn)
 
 #### Brain-prime
 
@@ -82,7 +82,7 @@ $ brain-prime
 
 ##### Demo
 
-[brain-prime-gameplay](https://asciinema.org/a/UrXsO4wAtpFuqdHroiEiCdXCZ)
+[![asciicast](https://asciinema.org/a/UrXsO4wAtpFuqdHroiEiCdXCZ.svg)](https://asciinema.org/a/UrXsO4wAtpFuqdHroiEiCdXCZ)
 
 ### Lint
 
